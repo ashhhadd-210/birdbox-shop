@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520" role="img">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f4ec"/><stop offset="1" stop-color="#e8eee3"/>
+    </linearGradient>
+    <radialGradient id="cavity" cx=".38" cy=".32" r=".85">
+      <stop offset="0" stop-color="#4a3520"/><stop offset=".6" stop-color="#2b1e12"/><stop offset="1" stop-color="#150f09"/>
+    </radialGradient>
+    <linearGradient id="face-fir" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d3a877"/><stop offset=".55" stop-color="#bb8d5c"/><stop offset="1" stop-color="#966b3f"/>
+    </linearGradient>
+    <linearGradient id="roof-fir" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bb8d5c"/><stop offset="1" stop-color="#74512d"/>
+    </linearGradient>
+    <linearGradient id="side-fir" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#966b3f"/><stop offset="1" stop-color="#74512d"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="640" height="520" fill="url(#sky)"/>
+  <circle cx="320" cy="245" r="185" fill="#c2b48d" fill-opacity=".22"/>
+  <ellipse cx="320" cy="452" rx="150" ry="26" fill="#3f5a3f" fill-opacity=".16" filter="url(#soft)"/>
+  
+  <g opacity=".9">
+    <path d="M52 470 q26 -52 76 -60 q-14 48 -76 60 z" fill="#4a7c4e" fill-opacity=".85"/>
+    <path d="M96 476 q34 -34 84 -30 q-26 36 -84 30 z" fill="#5d9160" fill-opacity=".8"/>
+    <path d="M588 468 q-30 -48 -80 -56 q16 46 80 56 z" fill="#43724a" fill-opacity=".8"/>
+    <path d="M540 478 q-36 -30 -84 -26 q28 34 84 26 z" fill="#5d9160" fill-opacity=".7"/>
+  </g>
+  
+  <g>
+    
+  <rect x="130" y="244" width="390" height="118" rx="4" fill="url(#face-fir)"/>
+  <path d="M133 264.0 q195 7.5 384 0"
+      fill="none" stroke="#74512d" stroke-opacity="0.22" stroke-width="1.6" stroke-linecap="round"/><path d="M133 284.7 q195 -8.2 384 0"
+      fill="none" stroke="#74512d" stroke-opacity="0.20" stroke-width="1.6" stroke-linecap="round"/><path d="M133 303.7 q195 -11.0 384 0"
+      fill="none" stroke="#74512d" stroke-opacity="0.22" stroke-width="1.6" stroke-linecap="round"/><path d="M133 322.3 q195 -8.0 384 0"
+      fill="none" stroke="#74512d" stroke-opacity="0.13" stroke-width="1.6" stroke-linecap="round"/><path d="M133 341.4 q195 11.6 384 0"
+      fill="none" stroke="#74512d" stroke-opacity="0.13" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="130" y="244" width="390" height="118" rx="4" fill="none" stroke="#74512d" stroke-opacity=".55" stroke-width="2"/>
+    <!-- felted roof -->
+    <path d="M106 250 l219 -52 l245 32 l-26 20 z" fill="#3c3a37"/>
+    <path d="M106 250 l219 -52 l245 32" fill="none" stroke="#2a2825" stroke-width="3"/>
+    <g stroke="#4d4a46" stroke-width="1.6" stroke-opacity=".8">
+      <path d="M116 246 l60 -46"/><path d="M128 246 l60 -46"/><path d="M140 246 l60 -46"/><path d="M152 246 l60 -46"/><path d="M164 246 l60 -46"/><path d="M176 246 l60 -46"/>
+    </g>
+    <!-- entrance tunnel, angled off the front-left -->
+    
+  <rect x="68" y="284" width="92" height="66" rx="3" fill="url(#face-fir)"/>
+  <path d="M71 300.9 q46 -5.7 86 0"
+      fill="none" stroke="#74512d" stroke-opacity="0.18" stroke-width="1.6" stroke-linecap="round"/><path d="M71 315.8 q46 -9.6 86 0"
+      fill="none" stroke="#74512d" stroke-opacity="0.17" stroke-width="1.6" stroke-linecap="round"/><path d="M71 333.8 q46 7.0 86 0"
+      fill="none" stroke="#74512d" stroke-opacity="0.14" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="68" y="284" width="92" height="66" rx="3" fill="none" stroke="#74512d" stroke-opacity=".55" stroke-width="2"/>
+    
+  <rect x="76" y="302" width="42" height="34" rx="17" fill="url(#cavity)"/>
+  <rect x="76" y="302" width="42" height="34" rx="17" fill="none" stroke="#2a1c0f" stroke-opacity=".45" stroke-width="1.8"/>
+    <rect x="68" y="284" width="92" height="8" fill="#2a1c0f" fill-opacity=".2"/>
+    <!-- feet -->
+    <rect x="150" y="362" width="24" height="16" fill="#74512d"/>
+    <rect x="476" y="362" width="24" height="16" fill="#74512d"/>
+    <!-- leaves spilling from the chamber -->
+    <path d="M190 356 q40 -22 90 -10 q-40 20 -90 10 z" fill="#7d6a3f" fill-opacity=".55"/>
+    <!-- hedgehog at the tunnel mouth -->
+    <g transform="translate(38 340)">
+      <path d="M0 0 c2 -26 22 -42 48 -42 c26 0 44 16 46 42 z" fill="#6b5a48"/>
+      <g stroke="#4a3d30" stroke-width="2.4" stroke-linecap="round">
+        <path d="M10 -12 l-6 -12 M22 -22 l-4 -14 M36 -28 l0 -15 M50 -28 l4 -15 M64 -22 l7 -13 M76 -12 l9 -11"/>
+      </g>
+      <path d="M84 0 c8 -4 14 -10 14 -16 c0 -8 -8 -12 -16 -10 z" fill="#c4ac93"/>
+      <circle cx="88" cy="-14" r="2.4" fill="#241d15"/>
+      <circle cx="96" cy="-12" r="2.6" fill="#3b322a"/>
+    </g>
+  </g>
+</svg>

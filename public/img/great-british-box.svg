@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520" role="img">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f4ec"/><stop offset="1" stop-color="#e8eee3"/>
+    </linearGradient>
+    <radialGradient id="cavity" cx=".38" cy=".32" r=".85">
+      <stop offset="0" stop-color="#4a3520"/><stop offset=".6" stop-color="#2b1e12"/><stop offset="1" stop-color="#150f09"/>
+    </radialGradient>
+    <linearGradient id="face-cedar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c98f5b"/><stop offset=".55" stop-color="#b0743f"/><stop offset="1" stop-color="#8a5628"/>
+    </linearGradient>
+    <linearGradient id="roof-cedar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b0743f"/><stop offset="1" stop-color="#6d4320"/>
+    </linearGradient>
+    <linearGradient id="side-cedar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a5628"/><stop offset="1" stop-color="#6d4320"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="640" height="520" fill="url(#sky)"/>
+  <circle cx="320" cy="245" r="185" fill="#9fbf9f" fill-opacity=".22"/>
+  <ellipse cx="320" cy="452" rx="150" ry="26" fill="#3f5a3f" fill-opacity=".16" filter="url(#soft)"/>
+  
+  <g opacity=".9">
+    <path d="M52 470 q26 -52 76 -60 q-14 48 -76 60 z" fill="#4a7c4e" fill-opacity=".85"/>
+    <path d="M96 476 q34 -34 84 -30 q-26 36 -84 30 z" fill="#5d9160" fill-opacity=".8"/>
+    <path d="M588 468 q-30 -48 -80 -56 q16 46 80 56 z" fill="#43724a" fill-opacity=".8"/>
+    <path d="M540 478 q-36 -30 -84 -26 q28 34 84 26 z" fill="#5d9160" fill-opacity=".7"/>
+  </g>
+  
+  <g>
+    <!-- back board -->
+    
+  <rect x="212" y="154" width="212" height="16" rx="2" fill="url(#face-cedar)"/>
+  <path d="M215 156.3 q106 -6.2 206 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.15" stroke-width="1.6" stroke-linecap="round"/><path d="M215 161.0 q106 -10.1 206 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.17" stroke-width="1.6" stroke-linecap="round"/><path d="M215 167.4 q106 -9.0 206 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.20" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="212" y="154" width="212" height="16" rx="2" fill="none" stroke="#6d4320" stroke-opacity=".55" stroke-width="2"/>
+    <!-- side (depth) -->
+    <path d="M418 176 l34 -22 l0 202 l-34 22 z" fill="url(#side-cedar)"/>
+    <path d="M418 176 l34 -22 l0 202 l-34 22 z" fill="none" stroke="#6d4320" stroke-opacity=".5" stroke-width="2"/>
+    <!-- front face -->
+    
+  <rect x="218" y="176" width="200" height="218" rx="3" fill="url(#face-cedar)"/>
+  <path d="M221 196.7 q100 -4.8 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.18" stroke-width="1.6" stroke-linecap="round"/><path d="M221 213.7 q100 9.2 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.14" stroke-width="1.6" stroke-linecap="round"/><path d="M221 237.1 q100 -6.3 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.16" stroke-width="1.6" stroke-linecap="round"/><path d="M221 257.2 q100 7.2 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.16" stroke-width="1.6" stroke-linecap="round"/><path d="M221 273.6 q100 -9.5 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.22" stroke-width="1.6" stroke-linecap="round"/><path d="M221 294.2 q100 -6.8 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.22" stroke-width="1.6" stroke-linecap="round"/><path d="M221 315.3 q100 4.0 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.15" stroke-width="1.6" stroke-linecap="round"/><path d="M221 333.5 q100 5.9 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.12" stroke-width="1.6" stroke-linecap="round"/><path d="M221 356.1 q100 -10.5 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.12" stroke-width="1.6" stroke-linecap="round"/><path d="M221 373.7 q100 -8.6 194 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.10" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="218" y="176" width="200" height="218" rx="3" fill="none" stroke="#6d4320" stroke-opacity=".55" stroke-width="2"/>
+    <!-- roof: pitched, overhanging -->
+    <path d="M192 182 l126 -58 l160 36 l-34 22 z"
+      fill="url(#roof-cedar)"/>
+    <path d="M192 182 l126 -58 l160 36"
+      fill="none" stroke="#6d4320" stroke-opacity=".65" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M318 124 l0 0" />
+    <!-- ridge shadow under roof -->
+    <rect x="218" y="176" width="200" height="14" fill="#2a1c0f" fill-opacity=".18"/>
+    
+  <circle cx="318" cy="254" r="22" fill="url(#cavity)"/>
+  <circle cx="318" cy="254" r="22" fill="none" stroke="#2a1c0f" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M302.16 244.1 a17.6 17.6 0 0 1 24.200000000000003 -3.3"
+    fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- hinge + catch on the front panel -->
+    <rect x="230" y="352" width="26" height="6" rx="3" fill="#6d4320" fill-opacity=".7"/>
+    <circle cx="392" cy="355" r="5" fill="#8d959b"/>
+    
+  <g transform="translate(322 318) scale(1.15 1.15)">
+    <path d="M0 0 c-9 -1 -16 -8 -16 -18 0 -12 8 -22 19 -22 8 0 14 4 17 10 l14 -6 -9 10 c3 4 4 9 4 14 0 13 -11 22 -25 22 z"
+      fill="#6b7f92"/>
+    <path d="M4 -30 l11 -4 -8 8 z" fill="#e8a33d"/>
+    <circle cx="6" cy="-33" r="1.9" fill="#1d1a17"/>
+    <path d="M-10 -14 q10 -6 20 -2 q-8 10 -20 2 z" fill="#000" fill-opacity=".16"/>
+    <path d="M-4 4 l0 7 M4 4 l0 7" stroke="#8a6a3a" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  </g>
+</svg>

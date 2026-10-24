@@ -1,0 +1,416 @@
+{
+  "brand": {
+    "name": "Hollow & Home",
+    "tagline": "Bird Boxes • Owl Boxes • Bat Boxes • Hedgehog Houses",
+    "strapline": "UK made handcrafted wildlife boxes, built from sustainable timber to RSPB specifications.",
+    "phone": "01632 960 118",
+    "email": "hello@hollowandhome.co.uk",
+    "address": "The Joinery, Church Road, Aylesford, Kent ME20 7BE"
+  },
+  "currency": {
+    "code": "GBP",
+    "symbol": "£"
+  },
+  "shipping": {
+    "freeAll": true,
+    "label": "Free UK shipping on every order"
+  },
+  "categories": [
+    {
+      "id": "bird",
+      "name": "Bird Boxes",
+      "blurb": "Nest boxes for garden songbirds, sparrows and swifts — every hole size to RSPB spec."
+    },
+    {
+      "id": "owl",
+      "name": "Owl Boxes",
+      "blurb": "Large-format boxes for barn, tawny and little owls. Built for twenty winters on an exposed pole."
+    },
+    {
+      "id": "mammal",
+      "name": "Mammal Houses",
+      "blurb": "Bat shelters, hedgehog homes and dormouse boxes for the rest of the garden's residents."
+    }
+  ],
+  "products": [
+    {
+      "id": "great-british-box",
+      "cat": "bird",
+      "name": "The Great British Bird Box",
+      "tagline": "Our everyday classic. One box, three species, no fuss.",
+      "price": 19.99,
+      "compareAt": 26.99,
+      "badge": "Summer offer",
+      "birds": [
+        "Blue tit",
+        "Great tit",
+        "Coal tit"
+      ],
+      "wood": "FSC Western Red Cedar",
+      "holeMm": 32,
+      "dims": "H 28 × W 15 × D 16 cm",
+      "stock": 42,
+      "rating": 4.8,
+      "reviews": 214,
+      "bestseller": true,
+      "img": "/img/great-british-box.svg",
+      "story": "The box we have made longest and changed least. Cut, jointed and drilled by hand in Kent from untreated cedar, then left bare so it silvers naturally and never leaches a preservative near a nest. A 32mm hole is the generalist choice — tits take it most years, sparrows some years.",
+      "features": [
+        "Untreated FSC cedar — nothing chemical near the brood",
+        "Hinged front panel for autumn cleaning",
+        "Pre-drilled drainage and ventilation",
+        "Stainless steel fixings and hanging plate"
+      ]
+    },
+    {
+      "id": "songbird-sanctuary",
+      "cat": "bird",
+      "name": "The Songbird Sanctuary",
+      "tagline": "Open-fronted, hedge-hidden nesting for robins and wrens.",
+      "price": 22,
+      "compareAt": null,
+      "badge": null,
+      "birds": [
+        "Robin",
+        "Wren",
+        "Pied wagtail"
+      ],
+      "wood": "Reclaimed Scots Pine",
+      "holeMm": 0,
+      "dims": "H 26 × W 18 × D 18 cm",
+      "stock": 26,
+      "rating": 4.7,
+      "reviews": 138,
+      "bestseller": true,
+      "img": "/img/songbird-sanctuary.svg",
+      "story": "Robins will not use a small round hole. They want a wide, low, half-open front tucked into ivy or a thick hedge, and a deep floor so the nestlings cannot tumble out. Built from reclaimed pine, so no new timber is felled for it.",
+      "features": [
+        "Wide open front with a 100mm deep sill",
+        "Reclaimed timber — zero new felling",
+        "Site 1–2m up, screened by foliage",
+        "Lift-off roof for cleaning"
+      ]
+    },
+    {
+      "id": "sparrow-tenement",
+      "cat": "bird",
+      "name": "The Sparrow Tenement",
+      "tagline": "Three chambers, because house sparrows nest as neighbours.",
+      "price": 44.99,
+      "compareAt": null,
+      "badge": null,
+      "birds": [
+        "House sparrow",
+        "Tree sparrow"
+      ],
+      "wood": "FSC Douglas Fir",
+      "holeMm": 32,
+      "dims": "H 24 × W 52 × D 18 cm",
+      "stock": 14,
+      "rating": 4.6,
+      "reviews": 76,
+      "bestseller": false,
+      "img": "/img/sparrow-tenement.svg",
+      "story": "House sparrows are colonial birds. A single box often sits empty for years; a terrace of three usually fills inside a season. Sized to the RSPB sparrow-terrace specification and braced for high eaves mounting.",
+      "features": [
+        "Three independent 32mm chambers",
+        "Solid dividers so broods stay separate",
+        "Eaves-mounting batten included",
+        "Typically occupied within one season"
+      ]
+    },
+    {
+      "id": "swift-box",
+      "cat": "bird",
+      "name": "The Swift Box",
+      "tagline": "Flush eaves cavity for the bird that needs us most.",
+      "price": 45,
+      "compareAt": null,
+      "badge": "Conservation priority",
+      "birds": [
+        "Swift",
+        "House martin"
+      ],
+      "wood": "Woodcrete (wood fibre & lime)",
+      "holeMm": 30,
+      "dims": "H 20 × W 42 × D 20 cm",
+      "stock": 19,
+      "rating": 4.8,
+      "reviews": 64,
+      "bestseller": true,
+      "img": "/img/swift-box.svg",
+      "story": "Swift numbers have more than halved as old roofs are sealed and soffits replaced. Woodcrete is breathable, frost-proof and good for twenty-five years, so a box fitted under the eaves this spring will outlast the roof repair that displaced them.",
+      "features": [
+        "Bottom-slot entrance, predator resistant",
+        "Breathable woodcrete — no condensation",
+        "Nest concave moulded into the floor",
+        "Free swift attraction-call download"
+      ]
+    },
+    {
+      "id": "murmuration-mansion",
+      "cat": "bird",
+      "name": "The Murmuration Mansion",
+      "tagline": "A deep, starling-sized box with a 45mm door.",
+      "price": 39,
+      "compareAt": 46,
+      "badge": null,
+      "birds": [
+        "Starling",
+        "Nuthatch",
+        "Great spotted woodpecker"
+      ],
+      "wood": "FSC Oak",
+      "holeMm": 45,
+      "dims": "H 40 × W 20 × D 22 cm",
+      "stock": 11,
+      "rating": 4.7,
+      "reviews": 41,
+      "bestseller": false,
+      "img": "/img/murmuration-mansion.svg",
+      "story": "Starlings are red-listed in the UK and need a bigger cavity than a tit box gives — 45mm hole, deep floor, and height on the wall. Solid oak, because starlings and woodpeckers will work at an entrance until it gives.",
+      "features": [
+        "45mm hole with hardwood wear plate",
+        "Deep 40cm body for a large brood",
+        "Solid FSC oak, 20mm walls",
+        "Mount 3m+ on a wall or mature trunk"
+      ]
+    },
+    {
+      "id": "diy-kit",
+      "cat": "bird",
+      "name": "The DIY Bird Box Kit",
+      "tagline": "Six pre-cut cedar panels, screws, and an afternoon with the kids.",
+      "price": 14.99,
+      "compareAt": null,
+      "badge": "Great for schools",
+      "birds": [
+        "Blue tit",
+        "Great tit"
+      ],
+      "wood": "FSC Western Red Cedar",
+      "holeMm": 28,
+      "dims": "Builds to H 28 × W 15 × D 16 cm",
+      "stock": 60,
+      "rating": 4.9,
+      "reviews": 187,
+      "bestseller": true,
+      "img": "/img/diy-kit.svg",
+      "story": "Every panel cut, sanded and pre-drilled in the workshop, so all that is left is a screwdriver and twenty minutes. We send these out by the crate to schools and scout groups — ask us about classroom quantities.",
+      "features": [
+        "All panels pre-cut and pre-drilled",
+        "Screws, hanging plate and Allen key included",
+        "Illustrated build and siting guide",
+        "Bulk pricing for schools and groups"
+      ]
+    },
+    {
+      "id": "tawny-plaza",
+      "cat": "owl",
+      "name": "The Tawny Owl Plaza",
+      "tagline": "Chimney-style tawny box for a mature garden or woodland edge.",
+      "price": 84.99,
+      "compareAt": null,
+      "badge": null,
+      "birds": [
+        "Tawny owl",
+        "Stock dove"
+      ],
+      "wood": "FSC Larch, charred finish",
+      "holeMm": 200,
+      "dims": "H 75 × W 25 × D 25 cm",
+      "stock": 8,
+      "rating": 4.7,
+      "reviews": 29,
+      "bestseller": false,
+      "img": "/img/tawny-plaza.svg",
+      "story": "Tawnies want a deep vertical chimney angled up a trunk, not a wall box. The larch is charred shou-sugi-ban style, which resists rot and insects without a drop of preservative, and weathers to a soft graphite.",
+      "features": [
+        "Deep chimney form, angled mounting cleats",
+        "Charred larch — preservative free",
+        "Drainage and a wood-chip nest base",
+        "Strap fixings, no nails into the tree"
+      ]
+    },
+    {
+      "id": "owl-field-cabin",
+      "cat": "owl",
+      "name": "The Owl Field Cabin",
+      "tagline": "Pole-mounted barn owl box for open farmland.",
+      "price": 174.99,
+      "compareAt": 199,
+      "badge": null,
+      "birds": [
+        "Barn owl",
+        "Kestrel"
+      ],
+      "wood": "25mm Marine Ply, dark oiled",
+      "holeMm": 150,
+      "dims": "H 55 × W 45 × D 50 cm",
+      "stock": 5,
+      "rating": 5,
+      "reviews": 14,
+      "bestseller": false,
+      "img": "/img/owl-field-cabin.svg",
+      "story": "For fields with no barn left standing. Twenty-five millimetre marine ply on a braced frame, dark-oiled, sized to Barn Owl Trust internal volume and rated for two decades at the top of an exposed pole.",
+      "features": [
+        "Barn Owl Trust compliant internal volume",
+        "Anti-fall exercise ledge for owlets",
+        "Inspection hatch for licensed ringers",
+        "Pole bracket kit included"
+      ]
+    },
+    {
+      "id": "barn-owl-homestead",
+      "cat": "owl",
+      "name": "The Barn Owl Homestead",
+      "tagline": "Our largest box, for gable ends and open barns.",
+      "price": 184.99,
+      "compareAt": null,
+      "badge": "Made to order",
+      "birds": [
+        "Barn owl",
+        "Tawny owl"
+      ],
+      "wood": "25mm Marine Ply & oak trim",
+      "holeMm": 150,
+      "dims": "H 60 × W 50 × D 60 cm",
+      "stock": 3,
+      "rating": 5,
+      "reviews": 9,
+      "bestseller": false,
+      "img": "/img/barn-owl-homestead.svg",
+      "story": "Built to sit inside a barn or on a gable, with a landing shelf outside the entrance and a full-width hatch. Made to order in the workshop — allow three weeks, and tell us your mounting height so we set the shelf correctly.",
+      "features": [
+        "External landing shelf and internal ledge",
+        "Full-width inspection hatch",
+        "Oak-trimmed entrance for wear",
+        "Three week build, mounting advice included"
+      ]
+    },
+    {
+      "id": "bat-shack",
+      "cat": "mammal",
+      "name": "The Bat Shack",
+      "tagline": "Rough-sawn crevice roost for pipistrelles.",
+      "price": 37.99,
+      "compareAt": null,
+      "badge": null,
+      "birds": [
+        "Common pipistrelle",
+        "Soprano pipistrelle",
+        "Brown long-eared bat"
+      ],
+      "wood": "Rough-sawn FSC Cedar",
+      "holeMm": 0,
+      "dims": "H 38 × W 20 × D 9 cm",
+      "stock": 22,
+      "rating": 4.6,
+      "reviews": 58,
+      "bestseller": false,
+      "img": "/img/bat-shack.svg",
+      "story": "Bats need a narrow crevice and a rough surface to climb, not a hole. Every internal face is left saw-toothed and the joints are sealed so the roost stays draught-free — mount three or more at different aspects and let them choose.",
+      "features": [
+        "15–20mm crevice, saw-roughened internals",
+        "Bottom-loading slot, no cleaning needed",
+        "Sealed joints, draught free",
+        "Fit 4m+ up with a clear flight path below"
+      ]
+    },
+    {
+      "id": "hedgehog-house",
+      "cat": "mammal",
+      "name": "The Hedgehog House",
+      "tagline": "Twin-chamber hibernaculum with a predator tunnel.",
+      "price": 59.99,
+      "compareAt": null,
+      "badge": "10% to hedgehog rescue",
+      "birds": [
+        "Hedgehog"
+      ],
+      "wood": "FSC Douglas Fir, felted roof",
+      "holeMm": 130,
+      "dims": "H 30 × W 55 × D 40 cm",
+      "stock": 16,
+      "rating": 4.9,
+      "reviews": 96,
+      "bestseller": true,
+      "img": "/img/hedgehog-house.svg",
+      "story": "A long entrance tunnel a badger or a cat cannot reach down, opening into a sleeping chamber packed with dry leaves. Ten percent of every hedgehog house we sell goes to our local rescue, who take in around four hundred animals a winter.",
+      "features": [
+        "Angled predator tunnel, 130mm",
+        "Twin chamber with a felted, liftable roof",
+        "Raised floor on feet to stay dry",
+        "10% of the price donated to hedgehog rescue"
+      ]
+    },
+    {
+      "id": "dormouse-box",
+      "cat": "mammal",
+      "name": "The Dormouse Box",
+      "tagline": "Rear-entrance woodland box for hazel dormice.",
+      "price": 15,
+      "compareAt": null,
+      "badge": null,
+      "birds": [
+        "Hazel dormouse",
+        "Wood mouse"
+      ],
+      "wood": "FSC Birch Ply",
+      "holeMm": 30,
+      "dims": "H 15 × W 12 × D 12 cm",
+      "stock": 35,
+      "rating": 4.5,
+      "reviews": 23,
+      "bestseller": false,
+      "img": "/img/dormouse-box.svg",
+      "story": "Entrance at the back, against the branch, exactly how a dormouse wants to arrive. Supplied flat-backed with a wire tie so it sits tight to a hazel stem in coppice or scrub.",
+      "features": [
+        "Rear 30mm entrance against the branch",
+        "Flat back and wire tie for hazel stems",
+        "Hinged lid for licensed surveying",
+        "Sold in tens for woodland schemes"
+      ]
+    }
+  ],
+  "promises": [
+    {
+      "icon": "guarantee",
+      "title": "5 year guarantee",
+      "text": "On every box we make. If it fails, we replace it."
+    },
+    {
+      "icon": "timber",
+      "title": "100% sustainable timber",
+      "text": "FSC certified or reclaimed. Nothing else comes into the workshop."
+    },
+    {
+      "icon": "hand",
+      "title": "Hand made in Kent",
+      "text": "Cut, jointed and finished by four people in one workshop."
+    },
+    {
+      "icon": "spec",
+      "title": "Built to RSPB spec",
+      "text": "Hole sizes, depths and volumes follow published conservation guidance."
+    }
+  ],
+  "charities": [
+    {
+      "name": "Holborough Hedgehogs",
+      "note": "10% of every hedgehog house"
+    },
+    {
+      "name": "Kent Wildlife Trust",
+      "note": "Box specifications and siting advice"
+    },
+    {
+      "name": "Barn Owl Trust",
+      "note": "Owl box dimensions and monitoring"
+    },
+    {
+      "name": "Swift Conservation",
+      "note": "Swift box placement surveys"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520" role="img">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f4ec"/><stop offset="1" stop-color="#e8eee3"/>
+    </linearGradient>
+    <radialGradient id="cavity" cx=".38" cy=".32" r=".85">
+      <stop offset="0" stop-color="#4a3520"/><stop offset=".6" stop-color="#2b1e12"/><stop offset="1" stop-color="#150f09"/>
+    </radialGradient>
+    <linearGradient id="face-cedar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c98f5b"/><stop offset=".55" stop-color="#b0743f"/><stop offset="1" stop-color="#8a5628"/>
+    </linearGradient>
+    <linearGradient id="roof-cedar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b0743f"/><stop offset="1" stop-color="#6d4320"/>
+    </linearGradient>
+    <linearGradient id="side-cedar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a5628"/><stop offset="1" stop-color="#6d4320"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="640" height="520" fill="url(#sky)"/>
+  <circle cx="320" cy="245" r="185" fill="#b3aebb" fill-opacity=".22"/>
+  <ellipse cx="320" cy="452" rx="150" ry="26" fill="#3f5a3f" fill-opacity=".16" filter="url(#soft)"/>
+  
+  <g opacity=".9">
+    <path d="M52 470 q26 -52 76 -60 q-14 48 -76 60 z" fill="#4a7c4e" fill-opacity=".85"/>
+    <path d="M96 476 q34 -34 84 -30 q-26 36 -84 30 z" fill="#5d9160" fill-opacity=".8"/>
+    <path d="M588 468 q-30 -48 -80 -56 q16 46 80 56 z" fill="#43724a" fill-opacity=".8"/>
+    <path d="M540 478 q-36 -30 -84 -26 q28 34 84 26 z" fill="#5d9160" fill-opacity=".7"/>
+  </g>
+  
+  <g>
+    <!-- wall behind -->
+    <rect x="120" y="60" width="400" height="380" fill="#e3ded1"/>
+    <g stroke="#d2cbba" stroke-width="2">
+      <path d="M120 150 h400 M120 240 h400 M120 330 h400"/>
+      <path d="M220 60 v90 M320 150 v90 M420 240 v90 M220 330 v110"/>
+    </g>
+    <path d="M388 138 l22 -14 l0 242 l-22 14 z" fill="url(#side-cedar)"/>
+    
+  <rect x="258" y="138" width="130" height="252" rx="3" fill="url(#face-cedar)"/>
+  <path d="M261 160.7 q65 10.8 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.24" stroke-width="1.6" stroke-linecap="round"/><path d="M261 180.8 q65 -7.8 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.11" stroke-width="1.6" stroke-linecap="round"/><path d="M261 201.9 q65 -9.7 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.20" stroke-width="1.6" stroke-linecap="round"/><path d="M261 220.8 q65 4.8 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.14" stroke-width="1.6" stroke-linecap="round"/><path d="M261 243.2 q65 -8.8 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.13" stroke-width="1.6" stroke-linecap="round"/><path d="M261 263.3 q65 -5.0 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.17" stroke-width="1.6" stroke-linecap="round"/><path d="M261 285.6 q65 -10.1 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.17" stroke-width="1.6" stroke-linecap="round"/><path d="M261 306.0 q65 -9.5 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.11" stroke-width="1.6" stroke-linecap="round"/><path d="M261 327.3 q65 9.8 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.18" stroke-width="1.6" stroke-linecap="round"/><path d="M261 349.8 q65 -8.0 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.12" stroke-width="1.6" stroke-linecap="round"/><path d="M261 367.6 q65 7.3 124 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.15" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="258" y="138" width="130" height="252" rx="3" fill="none" stroke="#6d4320" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M240 144 l83 -32 l105 18 l-22 14 z" fill="url(#roof-cedar)"/>
+    <!-- rough sawn texture: vertical scoring -->
+    <g stroke="#6d4320" stroke-opacity=".22" stroke-width="1.4">
+      <path d="M266 152 v228"/><path d="M277 152 v228"/><path d="M288 152 v228"/><path d="M299 152 v228"/><path d="M310 152 v228"/><path d="M321 152 v228"/><path d="M332 152 v228"/><path d="M343 152 v228"/><path d="M354 152 v228"/><path d="M365 152 v228"/><path d="M376 152 v228"/>
+    </g>
+    
+  <rect x="274" y="376" width="98" height="14" rx="7" fill="url(#cavity)"/>
+  <rect x="274" y="376" width="98" height="14" rx="7" fill="none" stroke="#2a1c0f" stroke-opacity=".45" stroke-width="1.8"/>
+    <!-- landing board below the slot -->
+    
+  <rect x="268" y="394" width="110" height="34" rx="2" fill="url(#face-cedar)"/>
+  <path d="M271 400.9 q55 10.6 104 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.20" stroke-width="1.6" stroke-linecap="round"/><path d="M271 409.1 q55 4.9 104 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.11" stroke-width="1.6" stroke-linecap="round"/><path d="M271 420.0 q55 -9.0 104 0"
+      fill="none" stroke="#6d4320" stroke-opacity="0.18" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="268" y="394" width="110" height="34" rx="2" fill="none" stroke="#6d4320" stroke-opacity=".55" stroke-width="2"/>
+    <!-- pipistrelle hanging at the slot -->
+    <g transform="translate(363 412)">
+      <path d="M0 0 c-14 -4 -22 6 -30 16 q16 -4 26 2 q-4 12 4 20 q8 -8 4 -20 q10 -6 26 -2 c-8 -10 -16 -20 -30 -16 z" fill="#4a3f38"/>
+      <circle cx="0" cy="-4" r="6" fill="#5a4d43"/>
+      <path d="M-5 -9 l-3 -7 l6 3 z M5 -9 l3 -7 l-6 3 z" fill="#5a4d43"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img">
+  <defs>
+    <linearGradient id="hsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef3e8"/><stop offset=".6" stop-color="#e3ecdd"/><stop offset="1" stop-color="#d7e4d1"/>
+    </linearGradient>
+    <radialGradient id="hcav" cx=".38" cy=".32" r=".85">
+      <stop offset="0" stop-color="#4a3520"/><stop offset="1" stop-color="#150f09"/>
+    </radialGradient>
+    <linearGradient id="hface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c98f5b"/><stop offset=".55" stop-color="#b0743f"/><stop offset="1" stop-color="#8a5628"/>
+    </linearGradient>
+    <linearGradient id="hroof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b0743f"/><stop offset="1" stop-color="#6d4320"/>
+    </linearGradient>
+    <filter id="hsoft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="620" fill="url(#hsky)"/>
+  <circle cx="960" cy="120" r="70" fill="#f6f1de" fill-opacity=".9"/>
+  <g fill="#8fae86" fill-opacity=".45">
+    <path d="M0 470 q160 -70 330 -40 q170 30 330 -10 q160 -40 340 10 v190 H0 z"/>
+  </g>
+  <g fill="#6f9268" fill-opacity=".5">
+    <path d="M0 530 q200 -50 420 -20 q220 30 420 -12 q180 -36 360 12 v110 H0 z"/>
+  </g>
+  <!-- distant trees -->
+  <g fill="#5b7f57" fill-opacity=".35">
+    <path d="M120 470 q30 -120 62 -140 q34 22 62 140 z"/>
+    <path d="M1010 476 q26 -104 54 -122 q30 20 54 122 z"/>
+  </g>
+  <!-- trunk -->
+  <path d="M300 620 q40 -300 20 -520 h150 q-34 226 6 520 z" fill="#77624a"/>
+  <path d="M330 100 q-16 240 -8 520" fill="none" stroke="#5a4834" stroke-width="4" stroke-opacity=".55"/>
+  <path d="M400 120 q22 220 34 500" fill="none" stroke="#5a4834" stroke-width="3" stroke-opacity=".4"/>
+  <path d="M452 210 q120 -46 250 -30" fill="none" stroke="#77624a" stroke-width="16" stroke-linecap="round"/>
+  <g fill="#5d9160">
+    <path d="M690 168 q70 -34 138 -26 q-58 52 -138 26 z"/>
+    <path d="M726 206 q76 -18 138 14 q-72 40 -138 -14 z"/>
+    <path d="M540 148 q46 -40 106 -44 q-30 58 -106 44 z"/>
+  </g>
+  <!-- the box, hung on the trunk -->
+  <g transform="translate(430 236)">
+    <path d="M210 14 l40 -26 l0 236 l-40 26 z" fill="#6d4320"/>
+    <rect x="10" y="14" width="200" height="236" rx="4" fill="url(#hface)"/>
+    <g stroke="#6d4320" stroke-opacity=".18" stroke-width="2">
+      <path d="M16 60 q100 10 188 0 M16 110 q100 -12 188 0 M16 160 q100 12 188 0 M16 210 q100 -10 188 0"/>
+    </g>
+    <rect x="10" y="14" width="200" height="236" rx="4" fill="none" stroke="#6d4320" stroke-opacity=".5" stroke-width="2.5"/>
+    <path d="M-20 22 l130 -64 l170 40 l-40 26 z" fill="url(#hroof)"/>
+    <path d="M-20 22 l130 -64 l170 40" fill="none" stroke="#6d4320" stroke-opacity=".7" stroke-width="3"/>
+    <rect x="10" y="14" width="200" height="16" fill="#2a1c0f" fill-opacity=".2"/>
+    <circle cx="110" cy="104" r="26" fill="url(#hcav)"/>
+    <circle cx="110" cy="104" r="26" fill="none" stroke="#2a1c0f" stroke-opacity=".5" stroke-width="2"/>
+    <rect x="30" y="216" width="30" height="7" rx="3" fill="#6d4320" fill-opacity=".7"/>
+    <circle cx="182" cy="219" r="6" fill="#8d959b"/>
+    <!-- blue tit at the hole -->
+    <g transform="translate(150 168) scale(1.5)">
+      <path d="M0 0 c-9 -1 -16 -8 -16 -18 0 -12 8 -22 19 -22 8 0 14 4 17 10 l14 -6 -9 10 c3 4 4 9 4 14 0 13 -11 22 -25 22 z" fill="#4f7fa8"/>
+      <path d="M-10 -26 q10 -8 22 -4 q-10 -12 -22 4 z" fill="#f2e7c9"/>
+      <path d="M4 -30 l11 -4 -8 8 z" fill="#e8a33d"/>
+      <circle cx="6" cy="-33" r="2" fill="#1d1a17"/>
+      <path d="M-12 -12 q12 -8 24 -2 q-10 12 -24 2 z" fill="#e8d98f"/>
+      <path d="M-4 4 l0 8 M4 4 l0 8" stroke="#8a6a3a" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+  </g>
+  <!-- second bird in flight -->
+  <g transform="translate(880 330) scale(1.3) rotate(-10)">
+    <path d="M0 0 c-9 -1 -16 -8 -16 -18 0 -12 8 -22 19 -22 8 0 14 4 17 10 l14 -6 -9 10 c3 4 4 9 4 14 0 13 -11 22 -25 22 z" fill="#7d6a52"/>
+    <path d="M-14 -20 q18 -18 40 -14 q-18 22 -40 14 z" fill="#8d7a60"/>
+    <path d="M4 -30 l11 -4 -8 8 z" fill="#e8a33d"/>
+    <circle cx="6" cy="-33" r="2" fill="#1d1a17"/>
+  </g>
+  <g fill="#4a7c4e" fill-opacity=".75">
+    <path d="M60 620 q40 -110 130 -140 q-24 104 -130 140 z"/>
+    <path d="M1150 620 q-40 -100 -124 -130 q22 96 124 130 z"/>
+  </g>
+</svg>

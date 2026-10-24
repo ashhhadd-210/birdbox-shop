@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hollow &amp; Home — Handcrafted Bird Boxes, Owl Boxes &amp; Wildlife Houses</title>
+<meta name="description" content="UK made handcrafted bird boxes, owl boxes, bat boxes and hedgehog houses. Sustainable timber, built to RSPB specifications, 5 year guarantee, free UK shipping.">
+<link rel="icon" href="/favicon.svg">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- announcement -->
+<div class="announce">
+  <div class="wrap announce__row">
+    <span>★ Free UK shipping on every order</span>
+    <span class="dot">·</span>
+    <span>5 year guarantee</span>
+    <span class="dot">·</span>
+    <span>We plant two trees for every box sold</span>
+  </div>
+</div>
+
+<header class="site-head">
+  <div class="wrap head__row">
+    <a class="brand" href="#home" data-nav="home">
+      <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M24 5 4 17v3h40v-3z" fill="#4f7a4a"/>
+        <rect x="9" y="20" width="30" height="23" rx="3" fill="#7a5a34"/>
+        <circle cx="24" cy="28" r="6" fill="#2b1e12"/>
+        <path d="M24 34v9" stroke="#5f4526" stroke-width="3"/>
+        <path d="M17 44h14" stroke="#4f7a4a" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <span class="brand__text">
+        <strong>Hollow &amp; Home</strong>
+        <small>Bird Boxes · Owl Boxes · Bat Boxes · Hedgehog Houses</small>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#shop/bird" data-nav="shop/bird">Shop Bird Boxes</a>
+      <a href="#shop/owl" data-nav="shop/owl">Shop Owl Boxes</a>
+      <a href="#shop/mammal" data-nav="shop/mammal">Shop Mammal Houses</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+
+    <button class="basket-btn" id="basketBtn" aria-label="Open basket">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1.2 11a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 8Zm3 0a3 3 0 0 1 6 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span>Basket</span>
+      <span class="basket-btn__count" id="basketCount">0</span>
+    </button>
+
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HOME ============ -->
+  <section class="view" id="view-home">
+
+    <div class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">Hand made in Kent since 2009</p>
+          <h1>A box that outlives<br>the tree it hangs on.</h1>
+          <p class="lede">Bird boxes, owl boxes and mammal houses, cut and jointed by hand from FSC or reclaimed timber. Built to RSPB and Kent Wildlife specifications, guaranteed five years, and posted free anywhere in the UK.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#shop/bird" data-nav="shop/bird">Shop the boxes</a>
+            <a class="btn btn--ghost" href="#about" data-nav="about">How they are made</a>
+          </div>
+          <div class="hero__stars">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span>Rated 4.8 from 949 customer reviews</span>
+          </div>
+        </div>
+        <div class="hero__art">
+          <img src="/img/hero.svg" alt="A cedar nest box mounted on a tree trunk with a blue tit at the entrance" width="1200" height="620">
+        </div>
+      </div>
+    </div>
+
+    <!-- welcome -->
+    <div class="wrap band">
+      <div class="welcome">
+        <h2>Welcome to the workshop</h2>
+        <p>We are four people, one bandsaw and a lot of sawdust. Every box on this site is cut, drilled, jointed and sanded here in Aylesford — no flat-packed imports, no chemical preservatives near a nest, and no timber that cannot be traced. If you are not sure which box suits your garden, ring us on <a href="tel:01632960118">01632 960 118</a> and we will talk it through.</p>
+      </div>
+    </div>
+
+    <!-- notice -->
+    <div class="wrap">
+      <div class="notice">
+        <strong>Workshop closed 14–21 September.</strong>
+        Orders placed in that week are cut and posted the following Monday. Owl boxes are made to order — allow three weeks.
+      </div>
+    </div>
+
+    <!-- shop now grid -->
+    <div class="wrap band" id="shopNow">
+      <div class="band__head">
+        <div>
+          <p class="eyebrow">Shop now</p>
+          <h2>This season&rsquo;s boxes</h2>
+        </div>
+        <div class="sortbar">
+          <label for="homeSort">Sort</label>
+          <select id="homeSort">
+            <option value="featured">Featured</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="rating">Best rated</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid" id="homeGrid"></div>
+    </div>
+
+    <!-- sustainable timber callout -->
+    <div class="callout callout--timber">
+      <div class="wrap callout__grid">
+        <div class="callout__mark">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M32 6 12 34h40L32 6Z" fill="#3f6b3c"/><path d="M32 20 18 44h28L32 20Z" fill="#5a8f52"/>
+            <rect x="28" y="44" width="8" height="14" rx="2" fill="#7a5a34"/>
+          </svg>
+        </div>
+        <div>
+          <h2>100% sustainable timber</h2>
+          <p>Every plank that comes through the door is FSC certified or reclaimed — usually old scaffold boards and joinery offcuts from sites around Kent. Nothing is treated with preservative, because a nesting bird spends six weeks pressed against the inside of that wood.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- built to last -->
+    <div class="wrap band">
+      <div class="split">
+        <div class="split__art">
+          <img src="/img/great-british-box.svg" alt="The Great British Bird Box in cedar" width="640" height="520">
+        </div>
+        <div class="split__copy">
+          <p class="eyebrow">Boxes, built to last</p>
+          <h2>Twenty winters, not two</h2>
+          <p>A cheap box fails in the same three places: the roof splits, the fixings rust, and the floor rots because water cannot get out. So we overhang every roof by 40mm, use stainless steel throughout, and drill drainage into every floor before it is fitted.</p>
+          <ul class="ticks">
+            <li>Rebated joints, screwed and glued — never stapled</li>
+            <li>Roofs overhang the entrance so rain never reaches the nest</li>
+            <li>Stainless fixings and hanging plates as standard</li>
+            <li>Hinged or lift-off panels, because a box needs cleaning each autumn</li>
+          </ul>
+          <a class="btn btn--primary" href="#shop/bird" data-nav="shop/bird">See the range</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- two trees -->
+    <div class="callout callout--trees">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--light">Our promise</p>
+        <h2>We plant two trees for every sale</h2>
+        <p class="callout__lede">Timber in, timber back. Every order — a £15 dormouse box or a £185 barn owl homestead — puts two native saplings into a UK planting scheme through our partners. That is 18,400 trees since we started counting.</p>
+        <div class="counter">
+          <div><strong>18,400</strong><span>trees planted</span></div>
+          <div><strong>11,260</strong><span>boxes made</span></div>
+          <div><strong>4</strong><span>conservation partners</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- season -->
+    <div class="wrap band">
+      <div class="split split--reverse">
+        <div class="split__art">
+          <img src="/img/hedgehog-house.svg" alt="The Hedgehog House with its predator tunnel" width="640" height="520">
+        </div>
+        <div class="split__copy">
+          <p class="eyebrow">Autumn &amp; winter</p>
+          <h2>September is shelter season</h2>
+          <p>Nesting is over, so this is the month to clean out last spring&rsquo;s boxes and put up anything new — birds prospect nest sites through the winter, and a box that has weathered a few months is far likelier to be taken in March. It is also the last window to give a hedgehog somewhere to hibernate before the first frosts.</p>
+          <ul class="ticks">
+            <li>Clean old boxes with hot water only, never disinfectant</li>
+            <li>Hang new boxes now so they weather before spring</li>
+            <li>Face the entrance between north and east, away from afternoon sun</li>
+            <li>Hedgehog houses want a quiet corner, back to a hedge, by mid-October</li>
+          </ul>
+          <a class="btn btn--primary" href="#shop/mammal" data-nav="shop/mammal">Shop mammal houses</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- promises -->
+    <div class="wrap band">
+      <div class="promises" id="promises"></div>
+    </div>
+
+    <!-- charities -->
+    <div class="wrap band">
+      <div class="band__head"><div><p class="eyebrow">Who we work with</p><h2>Conservation partners</h2></div></div>
+      <div class="charities" id="charities"></div>
+    </div>
+
+    <!-- reviews -->
+    <div class="wrap band">
+      <div class="band__head"><div><p class="eyebrow">Customer gallery</p><h2>Occupied within the season</h2></div></div>
+      <div class="reviews">
+        <blockquote>
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <p>Put the Sparrow Tenement up under the eaves in October and all three chambers were taken by April. The build quality is a different world from the garden centre box it replaced.</p>
+          <cite>Helen M. — Faversham</cite>
+        </blockquote>
+        <blockquote>
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <p>Ordered the Owl Field Cabin for a field with no barn left on it. It arrived on a pallet, properly heavy, and the pole bracket actually fitted. Barn owl using it in the second season.</p>
+          <cite>Rob T. — Romney Marsh</cite>
+        </blockquote>
+        <blockquote>
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <p>Bought thirty DIY kits for the school. Every panel pre-drilled, so a class of nine-year-olds got through them in one afternoon with no casualties.</p>
+          <cite>Sarah D. — Maidstone</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOP ============ -->
+  <section class="view" id="view-shop" hidden>
+    <div class="wrap">
+      <nav class="crumbs"><a href="#home" data-nav="home">Home</a> <span>/</span> <b id="shopCrumb">Shop</b></nav>
+      <header class="shop__head">
+        <h1 id="shopTitle">Shop</h1>
+        <p class="lede" id="shopBlurb"></p>
+      </header>
+      <div class="shop__bar">
+        <div class="chips" id="catChips"></div>
+        <div class="sortbar">
+          <label for="shopSort">Sort</label>
+          <select id="shopSort">
+            <option value="featured">Featured</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="rating">Best rated</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid" id="shopGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCT ============ -->
+  <section class="view" id="view-product" hidden>
+    <div class="wrap" id="productPane"></div>
+  </section>
+
+  <!-- ============ CHECKOUT ============ -->
+  <section class="view" id="view-checkout" hidden>
+    <div class="wrap">
+      <nav class="crumbs"><a href="#home" data-nav="home">Home</a> <span>/</span> <b>Checkout</b></nav>
+      <h1>Checkout</h1>
+      <div class="checkout" id="checkoutPane"></div>
+    </div>
+  </section>
+
+  <!-- ============ CONFIRMATION ============ -->
+  <section class="view" id="view-thanks" hidden>
+    <div class="wrap" id="thanksPane"></div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="view" id="view-about" hidden>
+    <div class="wrap">
+      <nav class="crumbs"><a href="#home" data-nav="home">Home</a> <span>/</span> <b>About</b></nav>
+      <article class="prose">
+        <p class="eyebrow">About us</p>
+        <h1>Four people and a bandsaw</h1>
+        <p>Hollow &amp; Home started in 2009 in a single garage in Aylesford, making tit boxes for a village fete. The order book got out of hand. Sixteen years later we are still in Kent, still cutting every panel here, and still refusing to sell a box we would not put up in our own gardens.</p>
+        <h2>Why the specifications matter</h2>
+        <p>A nest box is not decorative joinery. Hole diameter decides which species can use it and which predators cannot. Internal depth decides whether a cat can reach the brood. Roof overhang decides whether a week of driving rain drowns it. Every dimension on this site follows published RSPB, Kent Wildlife Trust or Barn Owl Trust guidance, and where those bodies disagree we build to the more conservative figure.</p>
+        <h2>The timber</h2>
+        <p>Two sources only: FSC certified stock from a merchant in Maidstone, and reclaimed boards — old scaffold planks, joinery offcuts, the occasional church pew. Reclaimed timber is denser and better seasoned than anything new, and it costs a tree nothing. Nothing is treated. If a box needs a finish we char it, which is a Japanese technique older than preservative and lasts longer.</p>
+        <h2>The guarantee</h2>
+        <p>Five years on every box, and in practice we have replaced eleven boxes in sixteen years. If a roof splits or a joint opens, send us a photograph and we will make you another.</p>
+        <h2>Trade and stockists</h2>
+        <p>We supply around forty garden centres, wildlife trusts and estate shops. Trade terms start at twelve units mixed. Schools and scout groups get the DIY kit at cost plus postage — just ask.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="view" id="view-contact" hidden>
+    <div class="wrap">
+      <nav class="crumbs"><a href="#home" data-nav="home">Home</a> <span>/</span> <b>Contact</b></nav>
+      <div class="contact">
+        <div class="prose">
+          <p class="eyebrow">Get in touch</p>
+          <h1>Ask us which box</h1>
+          <p>The most useful message you can send us is a photograph of where you want to put the box, and which way it faces. We will tell you what is likely to move in.</p>
+          <dl class="contact__dl">
+            <dt>Workshop</dt><dd>The Joinery, Church Road, Aylesford, Kent ME20 7BE</dd>
+            <dt>Telephone</dt><dd><a href="tel:01632960118">01632 960 118</a> — Mon to Fri, 8am to 4pm</dd>
+            <dt>Email</dt><dd><a href="mailto:hello@hollowandhome.co.uk">hello@hollowandhome.co.uk</a></dd>
+            <dt>Trade enquiries</dt><dd>Twelve units mixed, terms on request</dd>
+          </dl>
+        </div>
+        <form class="card form" id="contactForm">
+          <h2>Send a message</h2>
+          <label>Your name <input name="name" required autocomplete="name"></label>
+          <label>Email <input name="email" type="email" required autocomplete="email"></label>
+          <label>Which box are you asking about?
+            <select name="topic">
+              <option>Not sure yet — please advise</option>
+              <option>Bird boxes</option>
+              <option>Owl boxes</option>
+              <option>Mammal houses</option>
+              <option>Trade or stockist</option>
+              <option>Schools and groups</option>
+            </select>
+          </label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn--primary" type="submit">Send message</button>
+          <p class="form__note" id="contactNote" hidden>Thank you — we reply to everything within two working days.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot__grid">
+    <div>
+      <h3>Hollow &amp; Home</h3>
+      <p>UK made handcrafted wildlife boxes, built from sustainable timber to RSPB specifications.</p>
+      <p class="foot__reg">Company no. 00000000 · VAT GB 000 0000 00 (sample)</p>
+    </div>
+    <div>
+      <h4>Popular boxes</h4>
+      <ul id="footLinks"></ul>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#shop/bird" data-nav="shop/bird">Bird boxes</a></li>
+        <li><a href="#shop/owl" data-nav="shop/owl">Owl boxes</a></li>
+        <li><a href="#shop/mammal" data-nav="shop/mammal">Mammal houses</a></li>
+        <li><a href="#about" data-nav="about">About the workshop</a></li>
+        <li><a href="#contact" data-nav="contact">Contact</a></li>
+        <li><a href="/admin.html">Orders desk</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Workshop</h4>
+      <ul>
+        <li>The Joinery, Church Road</li>
+        <li>Aylesford, Kent ME20 7BE</li>
+        <li><a href="tel:01632960118">01632 960 118</a></li>
+        <li><a href="mailto:hello@hollowandhome.co.uk">hello@hollowandhome.co.uk</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot__bar">
+    <span>&copy; 2026 Hollow &amp; Home Ltd. Demonstration storefront — no payment is taken.</span>
+    <span>Free UK shipping · 5 year guarantee · Two trees per sale</span>
+  </div>
+</footer>
+
+<!-- basket drawer -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Basket" hidden>
+  <header class="drawer__head">
+    <h2>Your basket</h2>
+    <button class="iconbtn" id="drawerClose" aria-label="Close basket">&times;</button>
+  </header>
+  <div class="drawer__body" id="drawerBody"></div>
+  <footer class="drawer__foot" id="drawerFoot"></footer>
+</aside>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="/app.js"></script>
+</body>
+</html>

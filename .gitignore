@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.env
+*.zip
+*.tar.gz
+_backups/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+_private-originals/

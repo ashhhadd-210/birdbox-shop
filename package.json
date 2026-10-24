@@ -1,0 +1,12 @@
+{
+  "name": "hollow-and-home",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-dependency Node storefront for handcrafted bird boxes, owl boxes and mammal houses.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "images": "node tools/make-images.js"
+  },
+  "engines": { "node": ">=18" }
+}
